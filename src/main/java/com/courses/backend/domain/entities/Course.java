@@ -29,8 +29,6 @@ public class Course {
     @Column(unique = true)
     private String title_en;
 
-    private Long schedule_id;
-
     @CreationTimestamp
     private Instant createdDate;
 
